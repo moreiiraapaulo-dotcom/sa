@@ -1,0 +1,6 @@
+{
+  "name": "Samyra Moreira Linktree",
+  "description": "Samyra Moreira personal link-in-bio hub featuring fitness, social, and mentorship links",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
