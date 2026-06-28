@@ -117,18 +117,14 @@ export default function App() {
 
           {/* Profile Image - Centered and overlapping the boundary */}
           <div className="absolute left-1/2 -bottom-11 -translate-x-1/2 z-10">
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="relative rounded-full shadow-md cursor-pointer overflow-hidden"
-              onClick={() => setActiveModal('info')}
-            >
+            <div className="relative rounded-full shadow-md overflow-hidden">
               <img
                 src={IMAGES.profile}
                 alt="Samyra Moreira Profile"
                 className="h-[84px] w-[84px] rounded-full object-cover"
                 referrerPolicy="no-referrer"
               />
-            </motion.div>
+            </div>
           </div>
         </div>
 
