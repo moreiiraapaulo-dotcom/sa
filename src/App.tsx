@@ -23,6 +23,8 @@ import imgTiktok from './assets/images/tiktok_thumb_1782608645844.jpg';
 import imgInsta from './assets/images/insta_thumb_1782608656571.jpg';
 import imgDfyne from './assets/images/dfyne_gym_1782608665874.jpg';
 import imgLeopard from './assets/images/light_gray_leopard_1782610296745.jpg';
+import imgBurgundyLeopard from './assets/images/burgundy_leopard_pattern_1782609847965.jpg';
+import imgSubtleLeopard from './assets/images/subtle_leopard_pattern_1782610078227.jpg';
 
 // Image assets map
 const IMAGES = {
@@ -32,7 +34,9 @@ const IMAGES = {
   tiktok: 'https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e918cf45ef69357a84732c8d8b649c4f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=1f882c43&x-expires=1782792000&x-signature=g0UIPr15w%2Blc9vHDWzuBemYPs58%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my',
   insta: 'https://scontent-gru2-2.cdninstagram.com/v/t51.82787-19/532535407_18517869388002708_6558884099342187209_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=106&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=2ByyPx9VIbIQ7kNvwFcblJH&_nc_oc=AdqKwsA-mMYwyV69EsxP94c-B6vQAF9y09VAk4sAlKho_tBgkLZPGiXZuS4czNBhFbf-MAF_4yLpo_8tNWZBVD0n&_nc_zt=24&_nc_ht=scontent-gru2-2.cdninstagram.com&_nc_gid=VG4y_fHqKkoPOrlgwN0c4g&_nc_ss=7b6a8&oh=00_Af9TlDsYEyT2WqlzFSRJsDuWD8P3YJWF52crSiN8vuzP9Q&oe=6A466EF2',
   dfyne: 'https://yt3.googleusercontent.com/1_-Ry5iCO8Ud7DFdCXaHpKRIMW8BvCuglPfhol-OUHRS_H9KBFlI6WhP1qwNEr8JUWWFJKpmusc=s160-c-k-c0x00ffffff-no-rj',
-  leopard: imgLeopard
+  leopard: imgLeopard,
+  burgundyLeopard: imgBurgundyLeopard,
+  subtleLeopard: imgSubtleLeopard
 };
 
 export default function App() {
@@ -54,7 +58,7 @@ export default function App() {
       title: 'Manual Glow up + Grupo',
       image: IMAGES.shopFits,
       type: 'shop',
-      url: 'https://pay.kiwify.com.br/M6evdrq'
+      url: 'https://pay.kiwify.com.br/9OShKmo'
     },
     {
       id: 'tiktok',
@@ -75,7 +79,7 @@ export default function App() {
       title: 'Afiliação / Ganhe Com Meus Links',
       image: IMAGES.dfyne,
       type: 'discount',
-      url: 'https://samyramoreiraaffl.vercel.app/'
+      url: 'https://samyramoreiraaffl-mu.vercel.app/'
     }
   ];
 
@@ -98,7 +102,7 @@ export default function App() {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         id="linktree-card"
         className="w-full max-w-md rounded-[40px] overflow-hidden shadow-2xl border border-white/20 flex flex-col relative bg-cover bg-center"
-        style={{ minHeight: '760px', backgroundImage: `url(${IMAGES.leopard})` }}
+        style={{ minHeight: '760px', backgroundImage: `url(${IMAGES.subtleLeopard})` }}
       >
         {/* Top Header Section - Transparent overlay with background image visibility */}
         <div className="relative h-44 bg-black/5 w-full flex items-start justify-end px-6 pt-6 shrink-0 backdrop-blur-[0.5px]">
@@ -129,7 +133,10 @@ export default function App() {
         </div>
 
         {/* Content Section */}
-        <div className="flex-grow pt-14 pb-8 px-6 flex flex-col items-center bg-black/5">
+        <div 
+          className="flex-grow pt-14 pb-8 px-6 flex flex-col items-center bg-cover bg-center"
+          style={{ backgroundImage: `url(${IMAGES.subtleLeopard})` }}
+        >
           {/* Profile Details */}
           <div className="text-center mb-6">
             <h1 className="font-sans font-bold text-neutral-900 tracking-wider text-lg uppercase leading-tight select-all drop-shadow-sm">
