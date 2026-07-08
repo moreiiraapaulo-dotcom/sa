@@ -58,7 +58,7 @@ export default function App() {
       title: 'Manual Glow up + Grupo',
       image: IMAGES.shopFits,
       type: 'shop',
-      url: 'https://pay.kiwify.com.br/9OShKmo'
+      url: 'https://pay.kiwify.com.br/PJISPlh?utm_id=97757_v0_s00_e0_tv0'
     },
     {
       id: 'tiktok',
@@ -102,7 +102,7 @@ export default function App() {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         id="linktree-card"
         className="w-full max-w-md rounded-[40px] overflow-hidden shadow-2xl border border-white/20 flex flex-col relative bg-cover bg-center"
-        style={{ minHeight: '760px', backgroundImage: `url(${IMAGES.subtleLeopard})` }}
+        style={{ minHeight: '760px', backgroundImage: `url(${IMAGES.leopard})` }}
       >
         {/* Top Header Section - Transparent overlay with background image visibility */}
         <div className="relative h-44 bg-black/5 w-full flex items-start justify-end px-6 pt-6 shrink-0 backdrop-blur-[0.5px]">
@@ -131,7 +131,7 @@ export default function App() {
         {/* Content Section */}
         <div 
           className="flex-grow pt-14 pb-8 px-6 flex flex-col items-center bg-cover bg-center"
-          style={{ backgroundImage: `url(${IMAGES.subtleLeopard})` }}
+          style={{ backgroundImage: `url(${IMAGES.leopard})` }}
         >
           {/* Profile Details */}
           <div className="text-center mb-6">
