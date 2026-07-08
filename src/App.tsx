@@ -20,7 +20,6 @@ import imgProfile from './assets/images/profile_avatar_1782608628388.jpg';
 import imgMentoria from './assets/images/mentoria_thumb_1782608687064.jpg';
 import imgShopFits from './assets/images/shop_fits_1782608637154.jpg';
 import imgTiktok from './assets/images/tiktok_thumb_1782608645844.jpg';
-import imgInsta from './assets/images/insta_thumb_1782608656571.jpg';
 import imgInstaNew from './assets/images/insta_thumb_new.jpg';
 import imgDfyne from './assets/images/dfyne_gym_1782608665874.jpg';
 import imgLeopard from './assets/images/light_gray_leopard_1782610296745.jpg';
@@ -29,7 +28,7 @@ import imgSubtleLeopard from './assets/images/subtle_leopard_pattern_17826100782
 
 // Image assets map
 const IMAGES = {
-  profile: 'https://scontent-gru2-2.xx.fbcdn.net/v/t1.15752-9/729466584_1021033690535835_6558194086593237082_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=KQ4rsIsgF2UQ7kNvwF3a8H8&_nc_oc=Adp-zPkxTPC3lUCFa4fOYP1YwpFjlMOu4cs3zBwrVo-pagma89rPfc7acWp3SWmq0uEIoA1_3_C8QB5TMtII2x5z&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_ss=7b6a8&oh=03_Q7cD5gEf0Ija5N1bhJMP4z3z2wJnd4WaWTGDx5urwR_WNnyH2g&oe=6A67F8A9',
+  profile: 'https://scontent-gru2-2.xx.fbcdn.net/v/t1.15752-9/729466584_1021033690535835_6581949086593237082_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=KQ4rsIsgF2UQ7kNvwF3a8H8&_nc_oc=Adp-zPkxTPC3lUCFa4fOYP1YwpFjlMOu4cs3zBwrVo-pagma89rPfc7acWp3SWmq0uEIoA1_3_C8QB5TMtII2x5z&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_ss=7b6a8&oh=03_Q7cD5gEf0Ija5N1bhJMP4z3z2wJnd4WaWTGDx5urwR_WNnyH2g&oe=6A67F8A9',
   mentoria: 'https://scontent-gru2-1.xx.fbcdn.net/v/t1.15752-9/729003826_1374473857974655_6827511599003851738_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=1BoPCFNtLfMQ7kNvwFl0d15&_nc_oc=AdrD6NvaCwMJjxDcbuTUvjCcUM0tJsHfQq_-b-X7ocGT3eNZXQ9-G7imtF6k-tsf816iYtMiMFwQ9kv1wlj5LvZT&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-1.xx&_nc_ss=7a22e&oh=03_Q7cD5gGLB8YF8SPsWA25hSvDgd7tp_Gq10ENO7yryYw9V-LJdw&oe=6A67EB5E',
   shopFits: 'https://scontent-gru1-2.xx.fbcdn.net/v/t1.15752-9/728333671_1760382132080075_6071192769964366362_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=k4HUm-VaGBQQ7kNvwGUGoN0&_nc_oc=Adr1Wmtn2YyQa-rty8OuMTjraHiY89WnG97K7_MjGWsE0cNdt22velFbWghBBDFT_JT_bHHAqPvwIHjwklho46UA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru1-2.xx&_nc_ss=7a22e&oh=03_Q7cD5gFKg4jmTCS77AZ5nQhDp7oDx1JVvv0Ln_odp2ZdZL9wPA&oe=6A67EABB',
   tiktok: 'https://p19-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e918cf45ef69357a84732c8d8b649c4f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6df1b232&x-expires=1783702800&x-signature=vFYrWx%2FM2Ttkq1mQ4sjtn0MCqD0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my',
